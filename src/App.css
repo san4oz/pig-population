@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.task-page{
+  height: 400px;
+  width: 80%;
+}
+
+/* Should be done via api */
+.task-page .MuiSlider-mark{
+  width: 12px;
+  height: 12px;
+  display: flex;
+  outline: 0;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: -5px;
+  align-items: center;
+  margin-left: -6px;
+  border-radius: 50%;
+  justify-content: center;
+  background-color: currentColor;
+  opacity: 1;
+}
+
+.controls{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.controls .play-button{
+  margin-right: 10px;  
+}
